@@ -21,12 +21,6 @@ export function Hero() {
             Dario Dentice
           </span>
         </div>
-
-        {/* Trigger Command Palette */}
-        <button className="flex items-center gap-3 bg-[#0a0f1c] border border-slate-800 hover:border-terminal/50 transition-colors px-4 py-2.5 w-full md:w-[400px] rounded-sm group cursor-text">
-          <span className="text-terminal font-mono text-sm group-hover:animate-pulse">{`>`}</span>
-          <span className="font-mono text-sm text-slate-500 group-hover:text-slate-400">Type a command or press Ctrl+K</span>
-        </button>
       </div>
 
       {/* Contenuto Principale */}
